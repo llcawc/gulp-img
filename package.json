@@ -1,0 +1,41 @@
+{
+  "name": "gulp-img",
+  "version": "0.0.1",
+  "description": "Gulp plugin for image optimization and minify",
+  "license": "MIT",
+  "author": "llcawc",
+  "homepage": "https://github.com/llcawc",
+  "type": "module",
+  "main": "./gulp-img.js",
+  "exports": "./gulp-img.js",
+  "scripts": {
+    "tsc": "tsc -p ./tsconfig.json",
+    "dev": "gulp dev",
+    "build": "gulp build"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "imagemin": "^9.0.0",
+    "imagemin-mozjpeg": "^10.0.0",
+    "imagemin-optipng": "^8.0.0",
+    "imagemin-svgo": "^11.0.1",
+    "plur": "^5.1.0",
+    "pretty-bytes": "^6.1.1",
+    "through2": "^4.0.2"
+  },
+  "devDependencies": {
+    "@types/imagemin": "^9.0.0",
+    "@types/imagemin-mozjpeg": "^8.0.4",
+    "@types/imagemin-optipng": "^5.2.4",
+    "@types/imagemin-svgo": "^10.0.5",
+    "@types/through2": "^2.0.41",
+    "gulp": "^5.0.0",
+    "del": "^8.0.0",
+    "typescript": "^5.7.2"
+  },
+  "browserslist": [
+    ">= 0.5%",
+    "last 2 major versions",
+    "not dead"
+  ]
+}
